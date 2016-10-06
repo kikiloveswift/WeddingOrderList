@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC9793C51DA5F7520094E5FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9793C41DA5F7520094E5FD /* main.m */; };
+		FC9793C81DA5F7520094E5FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9793C71DA5F7520094E5FD /* AppDelegate.m */; };
+		FC9793CB1DA5F7520094E5FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9793CA1DA5F7520094E5FD /* ViewController.m */; };
+		FC9793CE1DA5F7520094E5FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9793CC1DA5F7520094E5FD /* Main.storyboard */; };
+		FC9793D01DA5F7520094E5FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9793CF1DA5F7520094E5FD /* Assets.xcassets */; };
+		FC9793D31DA5F7520094E5FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9793D11DA5F7520094E5FD /* LaunchScreen.storyboard */; };
+		FC9793DE1DA5F7520094E5FD /* WeddingOrderListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9793DD1DA5F7520094E5FD /* WeddingOrderListTests.m */; };
+		FC9793E91DA5F7520094E5FD /* WeddingOrderListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9793E81DA5F7520094E5FD /* WeddingOrderListUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC9793DA1DA5F7520094E5FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC9793B81DA5F7520094E5FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC9793BF1DA5F7520094E5FD;
+			remoteInfo = WeddingOrderList;
+		};
+		FC9793E51DA5F7520094E5FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC9793B81DA5F7520094E5FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC9793BF1DA5F7520094E5FD;
+			remoteInfo = WeddingOrderList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC9793C01DA5F7520094E5FD /* WeddingOrderList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeddingOrderList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9793C41DA5F7520094E5FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC9793C61DA5F7520094E5FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC9793C71DA5F7520094E5FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC9793C91DA5F7520094E5FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC9793CA1DA5F7520094E5FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC9793CD1DA5F7520094E5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC9793CF1DA5F7520094E5FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC9793D21DA5F7520094E5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC9793D41DA5F7520094E5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9793D91DA5F7520094E5FD /* WeddingOrderListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeddingOrderListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9793DD1DA5F7520094E5FD /* WeddingOrderListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeddingOrderListTests.m; sourceTree = "<group>"; };
+		FC9793DF1DA5F7520094E5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9793E41DA5F7520094E5FD /* WeddingOrderListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeddingOrderListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9793E81DA5F7520094E5FD /* WeddingOrderListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeddingOrderListUITests.m; sourceTree = "<group>"; };
+		FC9793EA1DA5F7520094E5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC9793BD1DA5F7520094E5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9793D61DA5F7520094E5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9793E11DA5F7520094E5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC9793B71DA5F7520094E5FD = {
+			isa = PBXGroup;
+			children = (
+				FC9793C21DA5F7520094E5FD /* WeddingOrderList */,
+				FC9793DC1DA5F7520094E5FD /* WeddingOrderListTests */,
+				FC9793E71DA5F7520094E5FD /* WeddingOrderListUITests */,
+				FC9793C11DA5F7520094E5FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC9793C11DA5F7520094E5FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC9793C01DA5F7520094E5FD /* WeddingOrderList.app */,
+				FC9793D91DA5F7520094E5FD /* WeddingOrderListTests.xctest */,
+				FC9793E41DA5F7520094E5FD /* WeddingOrderListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC9793C21DA5F7520094E5FD /* WeddingOrderList */ = {
+			isa = PBXGroup;
+			children = (
+				FC9793C61DA5F7520094E5FD /* AppDelegate.h */,
+				FC9793C71DA5F7520094E5FD /* AppDelegate.m */,
+				FC9793C91DA5F7520094E5FD /* ViewController.h */,
+				FC9793CA1DA5F7520094E5FD /* ViewController.m */,
+				FC9793CC1DA5F7520094E5FD /* Main.storyboard */,
+				FC9793CF1DA5F7520094E5FD /* Assets.xcassets */,
+				FC9793D11DA5F7520094E5FD /* LaunchScreen.storyboard */,
+				FC9793D41DA5F7520094E5FD /* Info.plist */,
+				FC9793C31DA5F7520094E5FD /* Supporting Files */,
+			);
+			path = WeddingOrderList;
+			sourceTree = "<group>";
+		};
+		FC9793C31DA5F7520094E5FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC9793C41DA5F7520094E5FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC9793DC1DA5F7520094E5FD /* WeddingOrderListTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC9793DD1DA5F7520094E5FD /* WeddingOrderListTests.m */,
+				FC9793DF1DA5F7520094E5FD /* Info.plist */,
+			);
+			path = WeddingOrderListTests;
+			sourceTree = "<group>";
+		};
+		FC9793E71DA5F7520094E5FD /* WeddingOrderListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC9793E81DA5F7520094E5FD /* WeddingOrderListUITests.m */,
+				FC9793EA1DA5F7520094E5FD /* Info.plist */,
+			);
+			path = WeddingOrderListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC9793BF1DA5F7520094E5FD /* WeddingOrderList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9793ED1DA5F7520094E5FD /* Build configuration list for PBXNativeTarget "WeddingOrderList" */;
+			buildPhases = (
+				FC9793BC1DA5F7520094E5FD /* Sources */,
+				FC9793BD1DA5F7520094E5FD /* Frameworks */,
+				FC9793BE1DA5F7520094E5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeddingOrderList;
+			productName = WeddingOrderList;
+			productReference = FC9793C01DA5F7520094E5FD /* WeddingOrderList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC9793D81DA5F7520094E5FD /* WeddingOrderListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9793F01DA5F7520094E5FD /* Build configuration list for PBXNativeTarget "WeddingOrderListTests" */;
+			buildPhases = (
+				FC9793D51DA5F7520094E5FD /* Sources */,
+				FC9793D61DA5F7520094E5FD /* Frameworks */,
+				FC9793D71DA5F7520094E5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC9793DB1DA5F7520094E5FD /* PBXTargetDependency */,
+			);
+			name = WeddingOrderListTests;
+			productName = WeddingOrderListTests;
+			productReference = FC9793D91DA5F7520094E5FD /* WeddingOrderListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC9793E31DA5F7520094E5FD /* WeddingOrderListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9793F31DA5F7520094E5FD /* Build configuration list for PBXNativeTarget "WeddingOrderListUITests" */;
+			buildPhases = (
+				FC9793E01DA5F7520094E5FD /* Sources */,
+				FC9793E11DA5F7520094E5FD /* Frameworks */,
+				FC9793E21DA5F7520094E5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC9793E61DA5F7520094E5FD /* PBXTargetDependency */,
+			);
+			name = WeddingOrderListUITests;
+			productName = WeddingOrderListUITests;
+			productReference = FC9793E41DA5F7520094E5FD /* WeddingOrderListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC9793B81DA5F7520094E5FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = kong;
+				TargetAttributes = {
+					FC9793BF1DA5F7520094E5FD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 628LRYYF8F;
+						ProvisioningStyle = Automatic;
+					};
+					FC9793D81DA5F7520094E5FD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 628LRYYF8F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC9793BF1DA5F7520094E5FD;
+					};
+					FC9793E31DA5F7520094E5FD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 628LRYYF8F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC9793BF1DA5F7520094E5FD;
+					};
+				};
+			};
+			buildConfigurationList = FC9793BB1DA5F7520094E5FD /* Build configuration list for PBXProject "WeddingOrderList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC9793B71DA5F7520094E5FD;
+			productRefGroup = FC9793C11DA5F7520094E5FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC9793BF1DA5F7520094E5FD /* WeddingOrderList */,
+				FC9793D81DA5F7520094E5FD /* WeddingOrderListTests */,
+				FC9793E31DA5F7520094E5FD /* WeddingOrderListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC9793BE1DA5F7520094E5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9793D31DA5F7520094E5FD /* LaunchScreen.storyboard in Resources */,
+				FC9793D01DA5F7520094E5FD /* Assets.xcassets in Resources */,
+				FC9793CE1DA5F7520094E5FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9793D71DA5F7520094E5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9793E21DA5F7520094E5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC9793BC1DA5F7520094E5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9793CB1DA5F7520094E5FD /* ViewController.m in Sources */,
+				FC9793C81DA5F7520094E5FD /* AppDelegate.m in Sources */,
+				FC9793C51DA5F7520094E5FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9793D51DA5F7520094E5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9793DE1DA5F7520094E5FD /* WeddingOrderListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9793E01DA5F7520094E5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9793E91DA5F7520094E5FD /* WeddingOrderListUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC9793DB1DA5F7520094E5FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC9793BF1DA5F7520094E5FD /* WeddingOrderList */;
+			targetProxy = FC9793DA1DA5F7520094E5FD /* PBXContainerItemProxy */;
+		};
+		FC9793E61DA5F7520094E5FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC9793BF1DA5F7520094E5FD /* WeddingOrderList */;
+			targetProxy = FC9793E51DA5F7520094E5FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC9793CC1DA5F7520094E5FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC9793CD1DA5F7520094E5FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC9793D11DA5F7520094E5FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC9793D21DA5F7520094E5FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC9793EB1DA5F7520094E5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC9793EC1DA5F7520094E5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC9793EE1DA5F7520094E5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 628LRYYF8F;
+				INFOPLIST_FILE = WeddingOrderList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kong.WeddingOrderList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC9793EF1DA5F7520094E5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 628LRYYF8F;
+				INFOPLIST_FILE = WeddingOrderList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kong.WeddingOrderList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC9793F11DA5F7520094E5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 628LRYYF8F;
+				INFOPLIST_FILE = WeddingOrderListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kong.WeddingOrderListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeddingOrderList.app/WeddingOrderList";
+			};
+			name = Debug;
+		};
+		FC9793F21DA5F7520094E5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 628LRYYF8F;
+				INFOPLIST_FILE = WeddingOrderListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kong.WeddingOrderListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeddingOrderList.app/WeddingOrderList";
+			};
+			name = Release;
+		};
+		FC9793F41DA5F7520094E5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 628LRYYF8F;
+				INFOPLIST_FILE = WeddingOrderListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kong.WeddingOrderListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WeddingOrderList;
+			};
+			name = Debug;
+		};
+		FC9793F51DA5F7520094E5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 628LRYYF8F;
+				INFOPLIST_FILE = WeddingOrderListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kong.WeddingOrderListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WeddingOrderList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC9793BB1DA5F7520094E5FD /* Build configuration list for PBXProject "WeddingOrderList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9793EB1DA5F7520094E5FD /* Debug */,
+				FC9793EC1DA5F7520094E5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9793ED1DA5F7520094E5FD /* Build configuration list for PBXNativeTarget "WeddingOrderList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9793EE1DA5F7520094E5FD /* Debug */,
+				FC9793EF1DA5F7520094E5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC9793F01DA5F7520094E5FD /* Build configuration list for PBXNativeTarget "WeddingOrderListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9793F11DA5F7520094E5FD /* Debug */,
+				FC9793F21DA5F7520094E5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC9793F31DA5F7520094E5FD /* Build configuration list for PBXNativeTarget "WeddingOrderListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9793F41DA5F7520094E5FD /* Debug */,
+				FC9793F51DA5F7520094E5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC9793B81DA5F7520094E5FD /* Project object */;
+}
