@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C57BB5BC3ED4838382CF7CD /* libPods-WeddingOrderList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD73504E6D61639D925BDB9C /* libPods-WeddingOrderList.a */; };
+		FC57B2C41DA7D47100011100 /* OrderDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57B2C31DA7D47100011100 /* OrderDataBase.m */; };
+		FC92921E1DA6656A003C80D6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC92921D1DA6656A003C80D6 /* libsqlite3.tbd */; };
 		FC9793C51DA5F7520094E5FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9793C41DA5F7520094E5FD /* main.m */; };
 		FC9793C81DA5F7520094E5FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9793C71DA5F7520094E5FD /* AppDelegate.m */; };
-		FC9793CB1DA5F7520094E5FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9793CA1DA5F7520094E5FD /* ViewController.m */; };
 		FC9793CE1DA5F7520094E5FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9793CC1DA5F7520094E5FD /* Main.storyboard */; };
 		FC9793D01DA5F7520094E5FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9793CF1DA5F7520094E5FD /* Assets.xcassets */; };
 		FC9793D31DA5F7520094E5FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9793D11DA5F7520094E5FD /* LaunchScreen.storyboard */; };
 		FC9793DE1DA5F7520094E5FD /* WeddingOrderListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9793DD1DA5F7520094E5FD /* WeddingOrderListTests.m */; };
 		FC9793E91DA5F7520094E5FD /* WeddingOrderListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9793E81DA5F7520094E5FD /* WeddingOrderListUITests.m */; };
+		FC9793FB1DA5FA1B0094E5FD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9793FA1DA5FA1B0094E5FD /* BaseViewController.m */; };
+		FC9793FE1DA5FA300094E5FD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9793FD1DA5FA300094E5FD /* RootViewController.m */; };
+		FC9794011DA603DC0094E5FD /* AllOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9794001DA603DC0094E5FD /* AllOrderListViewController.m */; };
+		FC9794051DA603F00094E5FD /* AddOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9794031DA603F00094E5FD /* AddOrderViewController.m */; };
+		FC9794061DA603F00094E5FD /* AddOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9794041DA603F00094E5FD /* AddOrderViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72C678BD5B9ABAF1AE3A7772 /* Pods-WeddingOrderList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingOrderList.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingOrderList/Pods-WeddingOrderList.release.xcconfig"; sourceTree = "<group>"; };
+		92AC07EA0534272EA7EB4D16 /* Pods-WeddingOrderList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingOrderList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingOrderList/Pods-WeddingOrderList.debug.xcconfig"; sourceTree = "<group>"; };
+		DD73504E6D61639D925BDB9C /* libPods-WeddingOrderList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeddingOrderList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC57B2C21DA7D47100011100 /* OrderDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDataBase.h; sourceTree = "<group>"; };
+		FC57B2C31DA7D47100011100 /* OrderDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDataBase.m; sourceTree = "<group>"; };
+		FC92921D1DA6656A003C80D6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		FC9793C01DA5F7520094E5FD /* WeddingOrderList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeddingOrderList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9793C41DA5F7520094E5FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC9793C61DA5F7520094E5FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC9793C71DA5F7520094E5FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FC9793C91DA5F7520094E5FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FC9793CA1DA5F7520094E5FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FC9793CD1DA5F7520094E5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC9793CF1DA5F7520094E5FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC9793D21DA5F7520094E5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +62,16 @@
 		FC9793E41DA5F7520094E5FD /* WeddingOrderListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeddingOrderListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9793E81DA5F7520094E5FD /* WeddingOrderListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeddingOrderListUITests.m; sourceTree = "<group>"; };
 		FC9793EA1DA5F7520094E5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9793F81DA5F8E60094E5FD /* config.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.pch; sourceTree = "<group>"; };
+		FC9793F91DA5FA1B0094E5FD /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		FC9793FA1DA5FA1B0094E5FD /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FC9793FC1DA5FA300094E5FD /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FC9793FD1DA5FA300094E5FD /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		FC9793FF1DA603DC0094E5FD /* AllOrderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllOrderListViewController.h; sourceTree = "<group>"; };
+		FC9794001DA603DC0094E5FD /* AllOrderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllOrderListViewController.m; sourceTree = "<group>"; };
+		FC9794021DA603F00094E5FD /* AddOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddOrderViewController.h; sourceTree = "<group>"; };
+		FC9794031DA603F00094E5FD /* AddOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddOrderViewController.m; sourceTree = "<group>"; };
+		FC9794041DA603F00094E5FD /* AddOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddOrderViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC92921E1DA6656A003C80D6 /* libsqlite3.tbd in Frameworks */,
+				9C57BB5BC3ED4838382CF7CD /* libPods-WeddingOrderList.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +101,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A36567BA750436B083E7BF68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92AC07EA0534272EA7EB4D16 /* Pods-WeddingOrderList.debug.xcconfig */,
+				72C678BD5B9ABAF1AE3A7772 /* Pods-WeddingOrderList.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6C6EE34BF44E72CC40FF08A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC92921D1DA6656A003C80D6 /* libsqlite3.tbd */,
+				DD73504E6D61639D925BDB9C /* libPods-WeddingOrderList.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC9793B71DA5F7520094E5FD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				FC9793DC1DA5F7520094E5FD /* WeddingOrderListTests */,
 				FC9793E71DA5F7520094E5FD /* WeddingOrderListUITests */,
 				FC9793C11DA5F7520094E5FD /* Products */,
+				A36567BA750436B083E7BF68 /* Pods */,
+				F6C6EE34BF44E72CC40FF08A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +144,11 @@
 		FC9793C21DA5F7520094E5FD /* WeddingOrderList */ = {
 			isa = PBXGroup;
 			children = (
+				FC9793F61DA5F79F0094E5FD /* Base */,
+				FC9793F71DA5F79F0094E5FD /* Main */,
 				FC9793C61DA5F7520094E5FD /* AppDelegate.h */,
 				FC9793C71DA5F7520094E5FD /* AppDelegate.m */,
-				FC9793C91DA5F7520094E5FD /* ViewController.h */,
-				FC9793CA1DA5F7520094E5FD /* ViewController.m */,
+				FC9793F81DA5F8E60094E5FD /* config.pch */,
 				FC9793CC1DA5F7520094E5FD /* Main.storyboard */,
 				FC9793CF1DA5F7520094E5FD /* Assets.xcassets */,
 				FC9793D11DA5F7520094E5FD /* LaunchScreen.storyboard */,
@@ -140,6 +184,31 @@
 			path = WeddingOrderListUITests;
 			sourceTree = "<group>";
 		};
+		FC9793F61DA5F79F0094E5FD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FC9793F91DA5FA1B0094E5FD /* BaseViewController.h */,
+				FC9793FA1DA5FA1B0094E5FD /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FC9793F71DA5F79F0094E5FD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FC9793FC1DA5FA300094E5FD /* RootViewController.h */,
+				FC9793FD1DA5FA300094E5FD /* RootViewController.m */,
+				FC9793FF1DA603DC0094E5FD /* AllOrderListViewController.h */,
+				FC9794001DA603DC0094E5FD /* AllOrderListViewController.m */,
+				FC9794021DA603F00094E5FD /* AddOrderViewController.h */,
+				FC9794031DA603F00094E5FD /* AddOrderViewController.m */,
+				FC9794041DA603F00094E5FD /* AddOrderViewController.xib */,
+				FC57B2C21DA7D47100011100 /* OrderDataBase.h */,
+				FC57B2C31DA7D47100011100 /* OrderDataBase.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC9793ED1DA5F7520094E5FD /* Build configuration list for PBXNativeTarget "WeddingOrderList" */;
 			buildPhases = (
+				21A26575D4F3287352062AB4 /* [CP] Check Pods Manifest.lock */,
 				FC9793BC1DA5F7520094E5FD /* Sources */,
 				FC9793BD1DA5F7520094E5FD /* Frameworks */,
 				FC9793BE1DA5F7520094E5FD /* Resources */,
+				9F1FB3E2CC6AF547B1E1E3DC /* [CP] Embed Pods Frameworks */,
+				B115686670F72EC01037EEB2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +324,7 @@
 				FC9793D31DA5F7520094E5FD /* LaunchScreen.storyboard in Resources */,
 				FC9793D01DA5F7520094E5FD /* Assets.xcassets in Resources */,
 				FC9793CE1DA5F7520094E5FD /* Main.storyboard in Resources */,
+				FC9794061DA603F00094E5FD /* AddOrderViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +344,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21A26575D4F3287352062AB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F1FB3E2CC6AF547B1E1E3DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeddingOrderList/Pods-WeddingOrderList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B115686670F72EC01037EEB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeddingOrderList/Pods-WeddingOrderList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC9793BC1DA5F7520094E5FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC9793CB1DA5F7520094E5FD /* ViewController.m in Sources */,
 				FC9793C81DA5F7520094E5FD /* AppDelegate.m in Sources */,
+				FC9794011DA603DC0094E5FD /* AllOrderListViewController.m in Sources */,
+				FC9793FB1DA5FA1B0094E5FD /* BaseViewController.m in Sources */,
+				FC9793FE1DA5FA300094E5FD /* RootViewController.m in Sources */,
 				FC9793C51DA5F7520094E5FD /* main.m in Sources */,
+				FC9794051DA603F00094E5FD /* AddOrderViewController.m in Sources */,
+				FC57B2C41DA7D47100011100 /* OrderDataBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,10 +550,13 @@
 		};
 		FC9793EE1DA5F7520094E5FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92AC07EA0534272EA7EB4D16 /* Pods-WeddingOrderList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 628LRYYF8F;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WeddingOrderList/config.pch";
 				INFOPLIST_FILE = WeddingOrderList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kong.WeddingOrderList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,10 +565,13 @@
 		};
 		FC9793EF1DA5F7520094E5FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C678BD5B9ABAF1AE3A7772 /* Pods-WeddingOrderList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 628LRYYF8F;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WeddingOrderList/config.pch";
 				INFOPLIST_FILE = WeddingOrderList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kong.WeddingOrderList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +647,7 @@
 				FC9793EF1DA5F7520094E5FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC9793F01DA5F7520094E5FD /* Build configuration list for PBXNativeTarget "WeddingOrderListTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +656,7 @@
 				FC9793F21DA5F7520094E5FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC9793F31DA5F7520094E5FD /* Build configuration list for PBXNativeTarget "WeddingOrderListUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +665,7 @@
 				FC9793F51DA5F7520094E5FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
