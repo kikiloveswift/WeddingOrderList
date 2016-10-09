@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "AddOrderViewController.h"
+#import "AllOrderListViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +18,33 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    _navigationController = self.window.rootViewController;
+    //3D-Touch
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0f)
+    {
+        UIApplicationShortcutItem *item1 = [[UIApplicationShortcutItem alloc] initWithType:@"添加" localizedTitle:@"添加"];
+        UIApplicationShortcutItem *item2 = [[UIApplicationShortcutItem alloc] initWithType:@"总账单" localizedTitle:@"总账单"];
+        [[UIApplication sharedApplication] setShortcutItems:@[item1, item2]];
+    }
+    
     return YES;
+}
+#pragma mark--3DTouch
+- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler
+{
+    if ([shortcutItem.localizedTitle isEqualToString:@"添加"])
+    {
+        AddOrderViewController *addVC = [[AddOrderViewController alloc] init];
+        [_navigationController pushViewController:addVC animated:YES];
+        return;
+        
+    }else if ([shortcutItem.localizedTitle isEqualToString:@"总账单"])
+    {
+        AllOrderListViewController *allOrderVC = [[AllOrderListViewController alloc] init];
+        [_navigationController pushViewController:allOrderVC animated:YES];
+        return;
+    }
 }
 
 

@@ -10,6 +10,8 @@
 
 @interface OrderDataBase : NSObject
 
+@property(nonatomic, assign) int idKey;
+
 /**
  名字
  */
