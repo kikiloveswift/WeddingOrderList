@@ -117,7 +117,7 @@
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 44;
+    return 57;
 }
 
 - (void)updateSearchResultsForSearchController:(UISearchController *)searchController
@@ -148,7 +148,7 @@
 //设置是否显示一个可编辑视图的视图控制器。
 -(void)setEditing:(BOOL)editing animated:(BOOL)animated{
     [super setEditing:editing animated:animated];
-    [_tableView setEditing:editing animated:animated];//切换接收者的进入和退出编辑模式。
+    [_tableView setEditing:editing animated:animated];
 }
 
 -(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath

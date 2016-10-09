@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -32,7 +33,7 @@
                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入姓名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bLL-0e-Lc4">
                             <constraints>
                                 <constraint firstAttribute="height" constant="30" id="AHc-uV-q0Y"/>
-                                <constraint firstAttribute="width" constant="110" id="LqC-rT-D6p"/>
+                                <constraint firstAttribute="width" constant="80" id="LqC-rT-D6p"/>
                             </constraints>
                             <nil key="textColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -46,7 +47,7 @@
                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="礼金" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="klH-31-HAH">
                             <constraints>
                                 <constraint firstAttribute="height" constant="30" id="2EG-Xp-PnO"/>
-                                <constraint firstAttribute="width" constant="96" id="YTy-GY-KGo"/>
+                                <constraint firstAttribute="width" constant="70" id="YTy-GY-KGo"/>
                             </constraints>
                             <nil key="textColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -104,7 +105,7 @@
                             </connections>
                         </button>
                     </subviews>
-                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="Wdv-8M-uvF" firstAttribute="leading" secondItem="KOb-bW-ZfQ" secondAttribute="leading" constant="20" id="0IL-38-VPB"/>
                         <constraint firstItem="klH-31-HAH" firstAttribute="leading" secondItem="y8A-lE-qtG" secondAttribute="trailing" constant="5" id="2Or-fC-89Q"/>
