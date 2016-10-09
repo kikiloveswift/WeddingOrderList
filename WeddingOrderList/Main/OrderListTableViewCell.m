@@ -30,6 +30,6 @@
     _money.text = [NSString stringWithFormat:@"%d",_dataModel.money];
     _checkMethod.text = _dataModel.checkMethod;
     _isAbscent.text = _dataModel.isAbscent;
-    _relationShip.text = _dataModel.isAbscent;
+    _relationShip.text = _dataModel.relationship;
 }
 @end

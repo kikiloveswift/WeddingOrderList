@@ -110,7 +110,12 @@
     if (cell == nil) {
         cell = [[[NSBundle mainBundle]loadNibNamed:@"OrderListTableViewCell" owner:nil options:nil]lastObject];
     }
-    cell.dataModel = _mArr[indexPath.row];
+    if (_searchVC.active)
+    {
+        cell.dataModel = _searchList[indexPath.row];
+    }else{
+        cell.dataModel = _mArr[indexPath.row];
+    }
     
     return cell;
     
@@ -123,14 +128,17 @@
 - (void)updateSearchResultsForSearchController:(UISearchController *)searchController
 {
     NSString *searchString = _searchVC.searchBar.text;
-    
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF CONTAINS %@",searchString];
     if (_searchList != nil)
     {
         [_searchList removeAllObjects];
+    }else{
+        _searchList = [NSMutableArray array];
     }
-//    _searchList赋值
-    _searchList = [NSMutableArray arrayWithArray:[_nameArr filteredArrayUsingPredicate:predicate]];
+    for (OrderDataBase *dataModel in _mArr) {
+        if ([dataModel.name containsString:searchString]) {
+            [_searchList addObject:dataModel];
+        }
+    }
     [_tableView reloadData];
     
 }
@@ -174,6 +182,7 @@
         }
     }
 }
+
 
 
 

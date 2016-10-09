@@ -217,6 +217,39 @@
     return 0;
 }
 
+- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
+{
+    if (component == 0)
+    {
+        [pickerView selectedRowInComponent:0];
+    }
+    NSInteger result = [pickerView selectedRowInComponent:0];
+    
+    if (pickerView == _checkPick){
+        if (_dataModel)
+        {
+            _dataModel.checkMethod = _checkArr[result];
+        }
+        
+        
+    }else if (pickerView == _absentPick){
+        if (_dataModel)
+        {
+            _dataModel.isAbscent = _absentArr[result];
+        }
+        
+        
+    }else if (pickerView == _relationPick){
+        
+        if (_dataModel)
+        {
+            _dataModel.relationship = _relationArr[result];
+        }
+        
+    }
+    
+}
+
 #pragma mark--UITextFieldDelegate
 - (BOOL)textFieldShouldEndEditing:(UITextField *)textField
 {
