@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="KWl-Jy-9ea">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="NO" initialViewController="KWl-Jy-9ea">
     <dependencies>
+        <deployment identifier="iOS"/>
+        <development version="7000" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
-        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -30,13 +31,15 @@
                         <viewControllerLayoutGuide type="bottom" id="J41-HY-4yC"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zab-qw-F2A">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5th-xZ-lY8">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5th-xZ-lY8">
+                                <rect key="frame" x="27.5" y="258.5" width="320" height="150"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Chb-bd-EhL">
-                                        <color key="backgroundColor" red="1" green="0.15408587726418965" blue="0.079794624169630124" alpha="1" colorSpace="calibratedRGB"/>
+                                        <rect key="frame" x="166" y="22.5" width="129" height="105"/>
+                                        <color key="backgroundColor" red="1" green="0.25394821166992188" blue="0.091672725975513458" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                         <state key="normal" title="添加">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -46,7 +49,8 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QBh-gI-Xvo">
-                                        <color key="backgroundColor" red="1" green="0.71678760139999997" blue="0.35836866090000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <rect key="frame" x="25" y="22.5" width="129" height="105"/>
+                                        <color key="backgroundColor" red="1" green="0.76436465978622437" blue="0.43100205063819885" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="105" id="e0L-UV-RlM"/>
                                             <constraint firstAttribute="width" constant="129" id="noy-hL-IS6"/>
@@ -60,7 +64,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="320" id="6eh-qL-Xv0"/>
                                     <constraint firstItem="QBh-gI-Xvo" firstAttribute="leading" secondItem="5th-xZ-lY8" secondAttribute="leading" constant="25" id="KFQ-gz-7z2"/>
@@ -73,7 +77,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="5th-xZ-lY8" firstAttribute="centerX" secondItem="zab-qw-F2A" secondAttribute="centerX" id="5IV-zX-95E"/>
                             <constraint firstItem="5th-xZ-lY8" firstAttribute="centerY" secondItem="zab-qw-F2A" secondAttribute="centerY" id="cOy-1q-JBl"/>
